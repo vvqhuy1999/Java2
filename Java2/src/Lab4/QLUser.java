@@ -359,7 +359,8 @@ public class QLUser extends javax.swing.JFrame {
          st.execute();
          JOptionPane.showMessageDialog(this, "Delete thanh cong:");
          con.close();
-//         display(current--);
+        display(current--);
+         loadDataToArray();
       }catch (Exception e){
          System.out.println(e);
       }
